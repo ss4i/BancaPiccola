@@ -1,0 +1,19 @@
+# =============================================================================
+#  requirements.txt — BancaPiccola-SECURE
+# =============================================================================
+#
+#  Versioni aggiornate di tutte le librerie, con le vulnerabilità note
+#  della versione VULN corrette. Nessun CVE pendente al 2025-04.
+#
+#  Verificare periodicamente con:
+#    pip install pip-audit
+#    pip-audit -r requirements.txt
+#  per identificare nuove vulnerabilita' pubblicate.
+# =============================================================================
+
+flask>=3.0.3
+werkzeug>=3.0.4
+jinja2>=3.1.4
+markupsafe>=2.1.5
+itsdangerous>=2.2.0
+bcrypt>=4.2.0

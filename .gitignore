@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+venv-*/
+env/
+ENV/
+.venv/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Database e dati generati a runtime
+*.db
+*.sqlite
+*.sqlite3
+
+# File "esca" generato da BancaPiccola-vuln per dimostrare Path Traversal
+SEGRETO.txt
+*/SEGRETO.txt
+
+# PDF generati al primo avvio (inclusi nel repo solo come riferimento)
+# Decommentare se NON si vogliono distribuire i PDF di esempio:
+# */documenti/*.pdf
+
+# Output di SBOM
+sbom.json
+*.sbom.json
+sbom.xml
+
+# Output dei lab (cookies, dump, esfiltrati)
+/tmp/cookie*.txt
+/tmp/fatture-esfiltrate.csv
+*-esfiltrate.csv
+app-rubata.py
+
+# Log
+*.log
+logs/
+
+# Test e coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# Locale
+*.pot
+*.mo
+
+# Docker
+.docker/
